@@ -1,0 +1,83 @@
+/*------------Header----------*/
+#poupou{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 200px;
+}
+/*----------fin header-------*/
+
+/*---------début histoire----*/
+#pack1{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    background-color: chocolate;
+}
+#introduction{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    width: 40%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#titre-intro{
+    text-align: center;
+    font-size: 45px;
+}
+
+
+#pack2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    width: 100%;
+    background-color: rgb(39, 68, 9);
+}
+#corps{
+    display: flex;
+    background-color: blueviolet;
+    width: 50%;
+    flex-direction: column;
+}
+#article{
+    display: flex;
+    font-size: 20px;
+}
+#titre-article{
+    display: flex;
+    font-size: 30px;
+}
+#gyptis{
+    display: flex;
+}
+#cesar{
+    display: flex;
+}
+
+
+#pack3{
+    display: flex;
+    background-color: chartreuse;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+    width: 100%;
+}
+#corpsMA{
+    display: flex;
+    background-color: blueviolet;
+    width: 45%;
+    flex-direction: column;
+}
+#image-articleMA{
+    display: flex;
+    width: 20%;
+}
+#moyen-age{
+    width: 100%;
+}
+
