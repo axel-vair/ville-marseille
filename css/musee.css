@@ -53,35 +53,48 @@
     flex-wrap:wrap;
     justify-content:space-evenly;
     column-gap:2%;
+    padding: 1%;
 }
 
 .museum{
     display:flex;
     width:30%;
+    border: 1px solid black;
+    flex-direction: column;
 }
 
 .museum-img-container{
-
+    display:flex;
 }
 .museum-img{
     width:100%;
 }
 
 .museum-text{
-    display:text;
+    display:flex;
     flex-direction:column;
+    padding: 5%;
 }
 .museum-name{
     display:flex;
+    margin-bottom: 5%;
+    justify-content: center;
+    font-weight: 900;
+    text-transform:uppercase;
 }
 .museum-address{
-    display:flex;
+    margin-bottom: 2%;
+}
+.strong{
+    font-weight: 700;
 }
 .museum-description{
     display:flex;
+    flex-direction:column;
+    margin-bottom:2%;
 }
-.museum-descritpion p{
-    
+.museum-description p{
+    margin-bottom:2%;
 }
 .museum-link{
     display:flex;
