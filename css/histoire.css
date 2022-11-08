@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 /*------------Header----------*/
 #poupou{
     display: flex;
@@ -8,74 +12,105 @@
 /*----------fin header-------*/
 
 /*---------début histoire----*/
+.parallax{
+    height: 365vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.parallax1{
+background-image: url("https://i.pinimg.com/originals/da/ca/95/daca9501d4b7139e2ecc980dd9f79a4c.jpg");
+}
 #pack1{
     display: flex;
     align-items: center;
-    padding-top: 20px;
-    background-color: chocolate;
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 60px;
 }
 #introduction{
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    background-color: rgba(255, 255, 255, 0.774);
     width: 40%;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.63);
 }
-#titre-intro{
+.titre-intro{
     text-align: center;
     font-size: 45px;
+    padding-bottom: 20px;
 }
 
 
-#pack2{
+.pack2{
     display: flex;
     justify-content: space-evenly;
-    padding-top: 20px;
     width: 100%;
-    background-color: rgb(39, 68, 9);
+    background-color: rgba(0, 255, 255, 0);
+    padding-bottom: 60px;
 }
-#corps{
+.corps{
     display: flex;
-    background-color: blueviolet;
-    width: 50%;
+    background-color: rgba(255, 255, 255, 0.774);
+    width: 34%;
     flex-direction: column;
-}
-#article{
-    display: flex;
-    font-size: 20px;
-}
-#titre-article{
-    display: flex;
-    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.63);
 }
 #gyptis{
     display: flex;
+    width: 100%;
+    box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.63);
+}
+.article{
+    display: flex;
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: justify;
+}
+.titre-article{
+    display: flex;
+    font-size: 30px;
+    padding-bottom: 20px;
 }
 #cesar{
     display: flex;
+    width: 100%;
+    box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.63);
 }
 
 
 #pack3{
     display: flex;
-    background-color: chartreuse;
+    background-color: rgba(255, 255, 255, 0.774);
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    padding-top: 20px;
-    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.63);
 }
 #corpsMA{
     display: flex;
-    background-color: blueviolet;
     width: 45%;
     flex-direction: column;
 }
 #image-articleMA{
     display: flex;
     width: 20%;
+    box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.63);
 }
 #moyen-age{
     width: 100%;

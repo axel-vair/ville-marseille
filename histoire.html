@@ -4,24 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" media="screen" href="marseille1.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/histoire.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/marseille.css"/>
     <title>Histoire de Marseille</title>
 </head>
 <body>
     <header>
-        <footer>
-            <div id="poupou"></div>
+        <nav class="navbar">
+            
+            <ul class="nav-menu">
+                <li class="nav-link">
+                    <a href="index.html" class="nav-item">Accueil</a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="" class="nav-item">Marseille 1</a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="" class="nav-item">Marseille 2</a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="" class="nav-item">Marseille 3</a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="" class="nav-item">Marseille 4</a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="" class="nav-item">Marseille 5</a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="contact.html" class="nav-item">Contact</a>
+                </li>    
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-        </footer>
+            <span>MENU</span>
+        </nav>
     </header>
+    <script src="app.js"></script>
 
     <main>
+    
+        <div class="parallax parallax1">  
             <div class="histoire">
-
+                <section>
                 <div id="pack1">
                     <div id="introduction">
-                        <h2 id="titre-intro">L'histoire de la cité phocéenne</h2>
-                        <article id="article">
+                        <h2 class="titre-intro">L'histoire de la cité phocéenne</h2>
+                        <article class="article">
                             Même si l’on dénote la présence d’une vie humaine 
                             depuis plus de 20 000 ans, ce sont les grecs qui 
                             ont établi les fondations de Marseille en 600 ans 
@@ -36,14 +75,16 @@
                         </article>
                     </div>
                 </div>
+                </section>
 
-                <div id="pack2">
-                    <div id="corps">
+                <section>
+                <div class="pack2">
+                    <div class="corps">
 
-                        <h3 id="titre-article">L'union de Gyptis et de Prôtis, le mythe 
+                        <h3 class="titre-article">L'union de Gyptis et de Prôtis, le mythe 
                             de la fondation de Marseille.
                         </h3>
-                        <article id="article">
+                        <article class="article">
                             Vers 600 av. J.-C., des Grecs d’Asie Mineure, actuelle Turquie, 
                             quittent Phocée pour fonder une cité dans la calanque du Lacydon.<br> 
                             Au début du VIe siècle av. J.-C., un premier habitat s’organise 
@@ -63,22 +104,24 @@
                     </div>
 
                     <div id="image-article">
-                        <img id ="gyptis" src="image/gyptis-protis.jpg">
+                        <img id ="gyptis" src="images/gyptis-protis.jpg">
                     </div>
-
                 </div>
+                </section>
 
-                <div id="pack2">
+
+                <section>
+                <div class="pack2">
 
                     <div id="image-article">
-                        <img id="cesar" src="image/cesar.jpg">
+                        <img id="cesar" src="images/cesar.jpg">
                     </div>
 
-                    <div id="corps">
+                    <div class="corps">
 
-                        <h3 id="titre-article">De Massalia à Massilia : la ville romaine
+                        <h3 class="titre-article">De Massalia à Massilia : la ville romaine
                         </h3>
-                        <article id="article">
+                        <article class="article">
                             Massalia est conquise par Jules César et son légat Trébonius en 
                             49 av. J.-C. La ville perd alors son indépendance politique mais 
                             reste un port actif et conserve très longtemps son caractère de 
@@ -104,18 +147,20 @@
 
                     </div>
                 </div>
-            
+                </section>
+
+                <section>
                 <div id="suitebody">
 
                     <div id="pack3">
 
                         <div id="image-articleMA">
-                            <img id="moyen-age" src="image/constantin.jpg">
+                            <img id="moyen-age" src="images/constantin.jpg">
                         </div>
 
                         <div id="corpsMA">
-                            <h2 id="titre-intro">De la cité antique à la cité médiévale</h2>
-                            <article id="article">
+                            <h2 class="titre-intro">De la cité antique à la cité médiévale</h2>
+                            <article class="article">
                                 Marseille est au Ve siècle une « ville de saints », en vertu de 
                                 la nouvelle donne religieuse décidée par l’empereur Constantin. 
                                 En 314, Marseille envoie l’évêque Orésius au concile d’Arles, 
@@ -141,17 +186,11 @@
                         </div>
 
                         <div id="image-articleMA">
-                            <img id="moyen-age" src="image/martel.jpg">
+                            <img id="moyen-age" src="images/martel.jpg">
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
-
+                </section>
             </div>
 
     </main>
