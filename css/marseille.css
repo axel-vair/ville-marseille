@@ -18,9 +18,13 @@ h2 {
 
 }
 
+h3 { 
+    font-family: 'Lora', serif;
+}
+
 body { 
     background-color: #f7f4f1 !important;
-    
+    font-family: 'Albert Sans', sans-serif;
 }
 
 main { 
@@ -43,11 +47,10 @@ main {
         justify-content: space-between;
         align-items: center;
         padding: 0 24px;
-        position: absolute;
+        position: sticky;
         z-index: 1;
         color: #fff;
         list-style: none;
-
     }
 
     header::before { 
@@ -110,29 +113,26 @@ main {
     }
 }
 
-
-
 /* STICKY NAV */
 .navbar {
     min-height: 70px;
     width: 100%;
     top: 0;
-    background: linear-gradient(153deg, rgba(34,17,152,1) 0%, rgba(51,21,254,1) 100%);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 24px;
-    position: absolute;
-    z-index: 1;
     color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
 }
-
 
 .nav-menu { 
     display: flex;
     align-items: center;
     gap: 50;
-
 }
 
 .navbar ul li { 
@@ -142,7 +142,6 @@ main {
 .navbar ul li:first-child a {
     border-top: 1px solid rgba(0,0,0,0.1);
 }
-
 
 .navbar ul li a { 
     display: block;
@@ -162,14 +161,14 @@ main {
 }
 
 .nav-item:hover { 
-    color: #629694;
+    color: rgba(3, 55, 255, 1);
 }
 
-    /* ~ HAMBURGER AND CROSS ~ */ 
+/* ~ HAMBURGER AND CROSS ~ */ 
 
 .bar { 
     display:block;
-    width: 18px;
+    width: 22px;
     height: 3px;
     margin: 5px auto;
     -webkit-transition: all 0.3 ease-in-out;
@@ -194,7 +193,6 @@ main {
     transform: translateY(-8px) rotate(-45deg);
 }
 
-
     /* ~ NAV MENU OUT OF THE BOX ~ */
 .nav-menu{
     position: fixed;
@@ -211,7 +209,7 @@ main {
 
 .navbar > span {
     display: none;
-  }
+}
 
 nav-item{
     margin: 16px 0;
@@ -246,15 +244,12 @@ header img {
     background: #fff;
     padding: 1.875rem 3.125rem 1.3125rem 3.125rem;
     width:100%
-    
-
 }
 
 .logo_pages {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-   
 }
 
 .logo_pages img { 
@@ -266,14 +261,12 @@ header img {
     text-align: center;
     padding-top: 10%;
     text-transform: uppercase;
-
 }
 
 .logo_pages_solodiv {
     display: flex;
     width: 10%;
     flex-direction: column;
-
 }
 
 
@@ -289,7 +282,7 @@ header img {
     width: 100%;
     height: 13rem;
     margin-top: 5rem;
-    background-image: repeating-radial-gradient(75% 75% at 238% 218%, #00FFFF12 30%, #073AFF14 39%),radial-gradient(99% 99% at 109% 2%, #00C9FFFF 0%, #073AFF00 100%),radial-gradient(99% 99% at 21% 78%, #7B00FFFF 0%, #073AFF00 100%),radial-gradient(160% 154% at 711px -303px, #2000FFFF 0%, #073AFFFF 100%);
+    background: linear-gradient(141deg, rgba(32,0,255,1) 0%, rgba(0,201,255,1) 100%);
 }
 
 .div_title { 
@@ -401,13 +394,13 @@ header img {
 /* PARALLAX */
 
 .parallax { 
-    /* The image used */
+    /* IMAGE USED */
     background-image: url("/images/marseille-nuit.png");
   
-    /* Set a specific height */
+    /* HEIGHT CONTAINER */
     min-height: 550px; 
   
-    /* Create the parallax scrolling effect */
+    /* PARALLAX EFFECT */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -417,9 +410,11 @@ header img {
   }
 
 
+/* DIV ON PARALLAX */
+
 .text_overlay { 
     width: 34.1875rem;
-    height: 20rem;
+    height: 22rem;
     padding: 3.125rem;
     background: linear-gradient(141deg, rgba(32,0,255,1) 0%, rgba(0,201,255,1) 100%);
     margin-right: 100px;
@@ -428,7 +423,6 @@ header img {
     display: block;
     color: #fff;
 }
-
 
 .text_overlay h3 {
     font-size: 2.18rem;
@@ -451,13 +445,11 @@ header img {
 }
 
 #link_text:hover {
-    background-color: red;
-    transform: scale(3);
-    
+    background-color: #fff;  
+    color: rgba(2, 129, 255, 1);
 } 
 
 /* SECTION 3  */ 
-
 
 .container_header_section2 { 
     display: flex;
@@ -484,6 +476,7 @@ header img {
     padding: 5rem 0;
 }
 
+/* DIV NEWSLETTER */ 
 .news {
     display: flex;
     flex-direction: column;
@@ -492,6 +485,7 @@ header img {
     padding: 2.5rem 2.5rem;
 }
 
+/* DIV APP */
 .app {
     display: flex;
     flex-direction: column;
@@ -500,12 +494,24 @@ header img {
     padding: 2.5rem 2.5rem; 
 }
 
+.app a { 
+    text-decoration: none;
+    padding: 10px 10px;
+    background: #000;
+    color: #fff;
+}
 
+.container_apps { 
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
 .title_news { 
     font-size: 1.625rem;
-    color: #000;
+    color: #fff;
     margin-bottom: .625rem;
     line-height: 1.19;
+    background-color: rgba(32,0,255,1);
 }
 
 .description_news { 
@@ -525,9 +531,7 @@ footer {
     display: flex;
     width: 100%;
     height: 20rem;
-    background-size: 100% 100%;
-background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
-background-image: repeating-radial-gradient(75% 75% at 238% 218%, #00FFFF12 30%, #073AFF14 39%),radial-gradient(99% 99% at 109% 2%, #00C9FFFF 0%, #073AFF00 100%),radial-gradient(99% 99% at 21% 78%, #7B00FFFF 0%, #073AFF00 100%),radial-gradient(160% 154% at 711px -303px, #2000FFFF 0%, #073AFFFF 100%);
+    background: linear-gradient(141deg, rgba(32,0,255,1) 0%, rgba(0,201,255,1) 100%);
 }
 
 footer li{ 
@@ -545,8 +549,6 @@ footer h2 {
     padding-bottom: 1rem;
     text-align: center;
 }
-
-
 
 .container_footer {
     display: flex;
@@ -566,11 +568,14 @@ footer h2 {
     flex-direction: column;
 
 }
+
+/* CONTAINER BACKGROUND */
 .background {
     display: flex; 
     width: 70%;
     align-self: center;
 }
+    /* IMG FOR BG */
 .background img {
     display: flex;
     width: 100%;
@@ -587,7 +592,7 @@ footer h2 {
 }
 
 .container_foot2 a:hover {
-    color: #4595ff;
+    color: rgba(97, 130, 255, 1);
     transition: 300ms ease-in-out;
 }
 
@@ -610,10 +615,12 @@ footer h2 {
 
 .container_foot3 a:hover {
     background: #fff;
-    color: #003f89;
+    color: rgba(3, 55, 255, 1);
     transition: 300ms ease;
 
 }
+
+/* FONT AWESOME */ 
 
 .fa-brands {
     font-size: 2rem;
@@ -621,13 +628,32 @@ footer h2 {
 }
 
 .fa-brands:hover {
-    color: #4595ff;
+    color: rgba(3, 55, 255, 1);
     transition: 300ms ease-in-out;
 }
 
+/* CONTAINER LOGO FONT AWESOME MEDIA */
 .container_media {
     display: flex;
     justify-content: center;
+}
 
+/* FORM */ 
+
+input[type=submit] { 
+    border: 1px solid blue;
+    padding: 10px 10px;
+    background: rgba(32,0,255,1);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+input[type=submit]:hover {
+    transition: 200ms ease;
+    background: rgba(43, 87, 255, 1);
+}
+
+input[type=text] {
+    padding: 10px 10px;
 }
 
