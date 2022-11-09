@@ -15,7 +15,7 @@
     margin-bottom:1%;
 }
 
-.category{
+section{
     display:flex;
     border-bottom:#006533 5px solid;
     flex-direction:column;
