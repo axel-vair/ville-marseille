@@ -9,10 +9,18 @@
 
 html { 
     font-size: 16px;
+
+}
+
+h2 { 
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.5rem;
+
 }
 
 body { 
     background-color: #f7f4f1 !important;
+    
 }
 
 main { 
@@ -31,7 +39,6 @@ main {
         min-height: 70px;
         width: 126px !important;
         top: 0;
-        background: #006533;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -89,7 +96,7 @@ main {
         margin-right: auto;
         background: #fff;
         padding: 1.875rem 3.125rem 1.3125rem 3.125rem;
-        width:80% !important;
+        width: 80% !important;
     }
     .logo_pages_solodiv {
         transition: 300ms ease;
@@ -110,7 +117,7 @@ main {
     min-height: 70px;
     width: 100%;
     top: 0;
-    background: #006533;
+    background: linear-gradient(153deg, rgba(34,17,152,1) 0%, rgba(51,21,254,1) 100%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -281,9 +288,8 @@ header img {
     display: flex;
     width: 100%;
     height: 13rem;
-    background: #006533;
     margin-top: 5rem;
-    background: url(/images/diagonal-pattern.svg),linear-gradient(90deg,#006533,#14B363);
+    background-image: repeating-radial-gradient(75% 75% at 238% 218%, #00FFFF12 30%, #073AFF14 39%),radial-gradient(99% 99% at 109% 2%, #00C9FFFF 0%, #073AFF00 100%),radial-gradient(99% 99% at 21% 78%, #7B00FFFF 0%, #073AFF00 100%),radial-gradient(160% 154% at 711px -303px, #2000FFFF 0%, #073AFFFF 100%);
 }
 
 .div_title { 
@@ -349,16 +355,16 @@ header img {
 
 .link_text {
     text-decoration: none;
-    color: #006533;
+    color: #2062FF;
     font-weight: 800;
-    border: 1px solid #006533;
+    border: 1px solid #2062FF;
     padding: 10px;
     border-radius: 3px;
     transition: 300ms ease;
 }
 
 .link_text:hover {
-    background: #006533;
+    background: #2062FF;
     color: #fff;
 
 }
@@ -392,16 +398,236 @@ header img {
 }
 
 
-/* SECTION 3  */ 
+/* PARALLAX */
 
-.section3 { 
-    width: 100%;
-    padding-top: 30px;
+.parallax { 
+    /* The image used */
+    background-image: url("/images/marseille-nuit.png");
+  
+    /* Set a specific height */
+    min-height: 550px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin-top: 20px;
+  }
+
+
+.text_overlay { 
+    width: 34.1875rem;
+    height: 20rem;
+    padding: 3.125rem;
+    background: linear-gradient(141deg, rgba(32,0,255,1) 0%, rgba(0,201,255,1) 100%);
+    margin-right: 100px;
+    margin-top: 100px;
+    float: right;
+    display: block;
+    color: #fff;
 }
 
-.container_image img { 
+
+.text_overlay h3 {
+    font-size: 2.18rem;
+    margin-bottom: 1.18rem;
+    line-height: 1.14;
+}
+
+.text_overlay p {
+    color: #fff;
+}
+
+#link_text { 
+    color: #fff;
+    font-weight: 800;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: 300ms ease;
+}
+
+#link_text:hover {
+    background-color: red;
+    transform: scale(3);
+    
+} 
+
+/* SECTION 3  */ 
+
+
+.container_header_section2 { 
+    display: flex;
     width: 100%;
-    height: 34.375rem;
-    object-fit: cover;
+
+}
+
+.container_header_section2 h2 { 
+    display: flex;
+    color: #fff;
+    font-size: 3rem;
+    margin-left: 48px;
+    padding-top: 32px;
+}
+
+/* NEWS */
+
+.container_news { 
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    padding: 5rem 0;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    background: #fff;
+    padding: 2.5rem 2.5rem;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    background: #fff; 
+    padding: 2.5rem 2.5rem; 
+}
+
+
+.title_news { 
+    font-size: 1.625rem;
+    color: #000;
+    margin-bottom: .625rem;
+    line-height: 1.19;
+}
+
+.description_news { 
+    margin-bottom: .625rem;
+    line-height: 1.19;
+    font-size: 1rem;
+    line-height: 1.44;
+    margin-bottom: 1.25rem;
+    padding: .15625rem 0;
+
+}
+
+
+/* FOOTER */ 
+
+footer { 
+    display: flex;
+    width: 100%;
+    height: 20rem;
+    background-size: 100% 100%;
+background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+background-image: repeating-radial-gradient(75% 75% at 238% 218%, #00FFFF12 30%, #073AFF14 39%),radial-gradient(99% 99% at 109% 2%, #00C9FFFF 0%, #073AFF00 100%),radial-gradient(99% 99% at 21% 78%, #7B00FFFF 0%, #073AFF00 100%),radial-gradient(160% 154% at 711px -303px, #2000FFFF 0%, #073AFFFF 100%);
+}
+
+footer li{ 
+    list-style: none;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+footer a { 
+    text-decoration: none;
+    color: white;
+}
+
+footer h2 {
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+
+
+.container_footer {
+    display: flex;
+    width: 100%;
+    padding-top: 30px;
+    color: #fff;
+    
+}
+
+.container_foot1 {
+    display: flex;
+    width: 30%;
+    border-right: 1px solid; 
+    border-color: rgba(255, 255, 255, 0.5);
+    height:80%;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.background {
+    display: flex; 
+    width: 70%;
+    align-self: center;
+}
+.background img {
+    display: flex;
+    width: 100%;
+}
+
+.container_foot2 { 
+    display: flex;
+    width: 30%;
+    border-right: 1px solid; 
+    border-color: rgba(255, 255, 255, 0.5);
+    height:80%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_foot2 a:hover {
+    color: #4595ff;
+    transition: 300ms ease-in-out;
+}
+
+.container_foot3 { 
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container_foot3 a { 
+    display: flex;
+    width: 10rem;
+    border: 1px solid #fff;
+    padding: 10px 10px;
+    margin: 1rem 0 2rem 0;
+    align-self: center;
+    justify-content: center;
+}
+
+.container_foot3 a:hover {
+    background: #fff;
+    color: #003f89;
+    transition: 300ms ease;
+
+}
+
+.fa-brands {
+    font-size: 2rem;
+    padding: 10px 10px;
+}
+
+.fa-brands:hover {
+    color: #4595ff;
+    transition: 300ms ease-in-out;
+}
+
+.container_media {
+    display: flex;
+    justify-content: center;
+
 }
 
