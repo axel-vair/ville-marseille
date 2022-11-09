@@ -17,7 +17,7 @@
 
 .category{
     display:flex;
-    border:black 5px solid;
+    border-bottom:#006533 5px solid;
     flex-direction:column;
     width:95%;
     margin-left:auto;
@@ -27,8 +27,10 @@
 
 .cat-titlebox{
     display:flex;
-    background-color: blue;
+    background-color: #006533;
+    border: #006533 5px solid;
     justify-content: center;
+    color:white;
 }
 
 .cat-titlebox-img-container{
@@ -50,6 +52,7 @@
 
 .cat-museumbox{
     display:flex;
+    background-color: rgba(34,139,34,0.2);
     flex-wrap:wrap;
     justify-content:space-evenly;
     row-gap: 2em;
@@ -58,9 +61,12 @@
 
 .museum{
     display:flex;
+    background-color:white;
     width:30%;
     border: 1px solid black;
     flex-direction: column;
+    box-shadow: 0 0 5px black;
+    border-radius: 15px;
 }
 
 .museum-img-container{
@@ -70,6 +76,8 @@
 .museum-img{
     width:100%;
     object-fit:cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .museum-text{
