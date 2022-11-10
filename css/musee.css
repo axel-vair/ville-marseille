@@ -6,8 +6,9 @@
     padding:0;
     font-family: 'Albert Sans', sans-serif;
 }
-
-
+.bgColor { 
+    background-color: rgba(32,0,255,1) !important;
+}
 .intro{
     display:flex;
     flex-direction:column;
