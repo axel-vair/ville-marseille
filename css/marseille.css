@@ -51,6 +51,7 @@ main {
         z-index: 1;
         color: #fff;
         list-style: none;
+        background: none !important;
     }
 
     header::before { 
@@ -250,6 +251,7 @@ main {
     top: 0;
     left: 0;
     z-index: 9;
+    background: linear-gradient(141deg, rgba(32,0,255,1) 0%, rgba(0,201,255,1) 100%);
 }
 
 .nav-menu { 
