@@ -3,6 +3,14 @@
     padding:0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Dosis:wght@300;400&family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+body{
+    font-family: 'Albert Sans', sans-serif;
+}
 
 header{
 
@@ -28,6 +36,7 @@ main{
     margin-bottom: 17%;
     justify-content: center;
     text-shadow: 0px 0px 15px black;
+    font-family: 'Source Serif Pro', serif;
 }
 
 .menu{
@@ -122,6 +131,7 @@ a{
 h2{
     font-size: 80px; 
     padding-top: 2%;
+    font-family: 'Source Serif Pro', serif;
 }
 
 .img1{
@@ -133,7 +143,7 @@ h1{
     display: flex;
    font-size: 50px; 
    margin:4%;
-  
+   font-family: 'Lora', serif;
    justify-content: center;
    background:linear-gradient(90deg, rgba(0,0,0,0.19371498599439774) 0%, rgba(103,208,230,1) 100%);
 }
