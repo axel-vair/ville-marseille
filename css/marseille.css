@@ -92,15 +92,6 @@ main {
         padding: 1.875rem 3.125rem 1.3125rem 3.125rem;
         width: 80%;  
     }
-
-    .shortcut_pages {
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-        background: #fff;
-        padding: 1.875rem 3.125rem 1.3125rem 3.125rem;
-        width: 80% !important;
-    }
     .logo_pages_solodiv {
         transition: 300ms ease;
     }
@@ -111,6 +102,138 @@ main {
         box-shadow: 2px 2px 2px rgba(60, 60, 93, 0.33);
         border-radius: 100%
     }
+    .logo_pages {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row !important;
+    }
+
+    .logo_pages_solodiv {
+        display: flex;
+        width: 10% !important;
+        flex-direction: column;
+    }
+
+    /* ARTICLES */
+    .article_main {
+        display: flex;
+        flex-direction: row !important;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -6.625rem;
+        background: #fff;
+    }
+    .img_main { 
+        width: 60% !important;
+    }
+    .text_main {
+        width: 40% !important;
+        padding: 40px;
+    }
+    .article_multiple {
+        display: flex;
+        width: 80%;
+        margin: 0 -.8125rem;
+        justify-content: space-between;
+        flex-direction: row !important;
+    }
+    .article_mini { 
+        flex-direction: column;
+        width: 23% !important;
+        max-width: 18.25rem;
+        background: #fff;
+    }
+    .text_overlay { 
+        width: 34.1875rem !important;
+        height: 22rem;
+        padding: 3.125rem;
+        background: linear-gradient(141deg, rgba(32,0,255,1) 0%, rgba(0,201,255,1) 100%);
+        margin-right: 100px;
+        margin-top: 100px;
+        float: right;
+        display: block;
+        color: #fff;
+    }
+    .parallax { 
+        /* IMAGE USED */
+        background-image: url("/images/marseille-nuit.png");
+      
+        /* HEIGHT CONTAINER */
+        min-height: 550px; 
+      
+        /* PARALLAX EFFECT */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        margin-top: 20px;
+      }  
+      
+      /* CONTAINER NEWS */
+      .container_news { 
+        display: flex;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+        padding: 5rem 0;
+        flex-direction: row !important;
+    }  
+    .news {
+        display: flex;
+        flex-direction: column;
+        width: 35rem;
+        background: #fff;
+        padding: 2.5rem 2.5rem;
+        margin-right: 20px;
+    }
+    .app {
+        display: flex;
+        flex-direction: column;
+        width: 35rem;
+        background: #fff;
+        padding: 2.5rem 2.5rem;
+        margin-left: 20px;
+    }  
+    footer { 
+        display: flex;
+        width: 20rem;
+        background: linear-gradient(141deg, rgba(32,0,255,1) 0%, rgba(0,201,255,1) 100%);
+    }
+    .container_footer {
+        display: flex;
+        width: 100%
+        padding-top: 30px;
+        color: #fff;
+        flex-direction: row !important;  
+    }
+    .container_foot1 {
+        display: flex;
+        width: 30% !important;
+        border-right: 1px solid; 
+        border-color: rgba(255, 255, 255, 0.5);
+        height:80%;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .container_foot2 { 
+        display: flex;
+        width: 30% !important;
+        border-right: 1px solid; 
+        border-color: rgba(255, 255, 255, 0.5);
+        height:80%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container_foot3 { 
+        display: flex;
+        width: 30% !important;
+        flex-direction: column;
+        text-align: center;
+    }
+
 }
 
 /* STICKY NAV */
@@ -243,13 +366,13 @@ header img {
     margin-right: auto;
     background: #fff;
     padding: 1.875rem 3.125rem 1.3125rem 3.125rem;
-    width:100%
+    width:80%
 }
 
 .logo_pages {
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
 }
 
 .logo_pages img { 
@@ -265,7 +388,7 @@ header img {
 
 .logo_pages_solodiv {
     display: flex;
-    width: 10%;
+    width: 35%;
     flex-direction: column;
 }
 
@@ -317,10 +440,11 @@ header img {
     margin-right: auto;
     margin-top: -6.625rem;
     background: #fff;
+    flex-direction: column;
 }
 
 .img_main { 
-    width: 60%;
+    width: 100%;
 }
 
 .img_main img { 
@@ -329,7 +453,7 @@ header img {
 }
 
 .text_main {
-    width: 40%;
+    width: 100%;
     padding: 40px;
 }
 
@@ -367,13 +491,14 @@ header img {
     width: 80%;
     margin: 0 -.8125rem;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 .article_mini { 
     flex-direction: column;
-    width: 23%;
-    max-width: 18.25rem;
+    width: 100%;
     background: #fff;
+    margin-bottom: 20px;
 }
 
 .article_mini img {
@@ -391,35 +516,12 @@ header img {
 }
 
 
-/* PARALLAX */
-
-.parallax { 
-    /* IMAGE USED */
-    background-image: url("/images/marseille-nuit.png");
-  
-    /* HEIGHT CONTAINER */
-    min-height: 550px; 
-  
-    /* PARALLAX EFFECT */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: block;
-    margin-top: 20px;
-  }
-
-
 /* DIV ON PARALLAX */
 
 .text_overlay { 
-    width: 34.1875rem;
     height: 22rem;
     padding: 3.125rem;
     background: linear-gradient(141deg, rgba(32,0,255,1) 0%, rgba(0,201,255,1) 100%);
-    margin-right: 100px;
-    margin-top: 100px;
-    float: right;
     display: block;
     color: #fff;
 }
@@ -474,13 +576,14 @@ header img {
     margin-right: auto;
     justify-content: space-between;
     padding: 5rem 0;
+    flex-direction: column;
 }
 
 /* DIV NEWSLETTER */ 
 .news {
     display: flex;
     flex-direction: column;
-    width: 35rem;
+    width: 100%;
     background: #fff;
     padding: 2.5rem 2.5rem;
 }
@@ -489,7 +592,7 @@ header img {
 .app {
     display: flex;
     flex-direction: column;
-    width: 35rem;
+    width: 100%;
     background: #fff; 
     padding: 2.5rem 2.5rem; 
 }
@@ -530,7 +633,6 @@ header img {
 footer { 
     display: flex;
     width: 100%;
-    height: 20rem;
     background: linear-gradient(141deg, rgba(32,0,255,1) 0%, rgba(0,201,255,1) 100%);
 }
 
@@ -555,17 +657,16 @@ footer h2 {
     width: 100%;
     padding-top: 30px;
     color: #fff;
+    flex-direction: column;
     
 }
 
 .container_foot1 {
     display: flex;
-    width: 30%;
-    border-right: 1px solid; 
-    border-color: rgba(255, 255, 255, 0.5);
-    height:80%;
+    width: 100%;
     justify-content: center;
     flex-direction: column;
+    padding-bottom: 20px;
 
 }
 
@@ -583,9 +684,7 @@ footer h2 {
 
 .container_foot2 { 
     display: flex;
-    width: 30%;
-    border-right: 1px solid; 
-    border-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
     height:80%;
     flex-direction: column;
     align-items: center;
@@ -598,7 +697,7 @@ footer h2 {
 
 .container_foot3 { 
     display: flex;
-    width: 30%;
+    width: 100%;
     flex-direction: column;
     text-align: center;
 }
