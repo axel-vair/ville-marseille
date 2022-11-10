@@ -1,47 +1,101 @@
-*{
-
-}
-
 section{
     
 }
 
-.hero{
+html { 
+
+    font-size: 16px;
 
 }
 
 .hero-image{
 
+    display: flex;
+    align-items: center;
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    height: 450px;
+    border-radius: 5px;
+    margin-bottom: 60px;
+
+
 }
 
 .hero-titre{
+
+    margin-left: 50px;
+    margin-top: 270px;
+
+}
+
+p{
+
+    font-family: 'Albert Sans', sans-serif;
+
+}
+
+
+h1{
+
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: xx-large;
+}
+
+h2{
+
+    font-family: 'Oswald', sans-serif;
+    font-size: xx-large;
 
 }
 
 .intro{
 
+    text-align: center;
+
 }
 
 .intro-titre{
+
+    margin-bottom: 70px;
+    margin-top: 40px;
 
 }
 
 .intro-texte{
 
+    width: 700px;
+    margin: auto;
+
 }
 
 .article{
+
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
 
 }
 
 .article-titre{
 
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+
 }
 
 .article-contenu{
+    
+
+    width: 500px;
+
 
 }
 
 .article-image{
+
+    align-self:center;
+    margin-left: 80px;
 
 }
