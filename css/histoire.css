@@ -2,16 +2,10 @@
     margin: 0;
     padding: 0;
 }
-/*------------Header----------*/
-#poupou{
-    display: flex;
-    background-color: black;
-    width: 100%;
-    height: 200px;
-}
-/*----------fin header-------*/
-
 /*---------début histoire----*/
+body {
+    font-family: 'Albert Sans', sans-serif;
+}
 .parallax{
     height: 365vh;
     background-attachment: fixed;
@@ -48,6 +42,7 @@ background-image: url("https://i.pinimg.com/originals/da/ca/95/daca9501d4b7139e2
     text-align: center;
     font-size: 45px;
     padding-bottom: 20px;
+    font-family: 'Source Serif Pro', serif;
 }
 
 
@@ -84,6 +79,7 @@ background-image: url("https://i.pinimg.com/originals/da/ca/95/daca9501d4b7139e2
     display: flex;
     font-size: 30px;
     padding-bottom: 20px;
+    font-family: 'Source Serif Pro', serif;
 }
 #cesar{
     display: flex;
