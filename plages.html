@@ -4,26 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/marseille.css">
     <link rel="stylesheet" href="css/marseillej.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <p></p>
-    </header>
-    <main>
-        <div class="haut">
-            <p class="p1"><b>Marseille, ses plages, ses calanques et ses îles ! </b></p>
+        <!-- START NAVBAR -->
+        <nav class="navbar">
+            <ul class="nav-menu">
+            
+                <li class="nav-link">
+                    <a href="/histoire.html" class="nav-item"></i>Histoire</a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="/rando.html" class="nav-item">Randonnées</a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="/plages.html" class="nav-item">Plages</a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="/parcs.html" class="nav-item">Parcs</a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="/musee.html" class="nav-item">Musées</a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="contact.html" class="nav-item">Contact</a>
+                </li>    
+            </ul>
+            <!-- START HAMBURGER -->
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <!-- END HAMBURGER -->
+            <span>MENU</span>
+            
+        </nav>
+        <!-- END NAVBAR -->
+
+        <!-- START IMAGE HEADER -->
+        <div class="main_header">
+            <img src="images/plage2.png" alt="Image de Marseille">
         </div>
+        <!-- END IMAGE HEADER -->
+    </header>
+
+    <main>
+      <div class="haut">
+            <p class="p1"><b>Marseille, ses plages, ses calanques et ses îles ! </b></p>
+        </div> 
         <br><br>
+        <div class="menu">
+            
+                <p><a href="#plage" class="button-51"> Les Plages</a></p>
+                <p><a href="#calanques" class="button-51">Les Calanques</p></a>
+                <p><a href="#iles" class="button-51">Les Iles</p></a>
+            
+        </div>
         <div class="fond">
-            <div class="titre">
+            <div id="plage" class="titre">
                  <h2>Les Plages</h2>
                  <img class= "img1"src="images/nd.png">
             </div>
-            <br><br>
             <h1>Plage des Catalans</h1>
-            <br><br>
             <div class="plage">
                 <div class="image">
                     <img class="image1" src="images/catalan1.jpg">
@@ -39,9 +90,7 @@
                     C’est la plage de sable la plus accessible quand on se trouve dans le centre-ville de Marseille. Située à quelques minutes à pied du Vieux-Port, elle permet de piquer une tête rapidement après une journée de balade ou de se rafraichir avant de continuer sa visite de Marseille. Sa localisation et la présence d’un poste de secours et de sanitaires en font la plage parfaite pour les familles. Il faut y venir tôt le matin pour profiter d’un peu de tranquillité car c’est une plage très animée grâce à sa proximité du centre de Marseille. La plage des Catalans héberge également le Club de Beach Volley des Catalans et à quelques mètres, vous pouvez retrouver le club de natation du Cercle des Nageurs de Marseille d’un côté et l’Hôtel des Bords de Mer de l’autre.
                     Pour une pause gustative, le restaurant Chez Michel vous accueille autour de l’une des meilleures bouillabaisses de Marseille ainsi que le restaurant Les Akolytes avec leurs délicieux tapas !</p>
             </div>
-            <br><br>
             <h1>Plage de Corbières - l'Estaque</h1>
-            <br><br>
             <div class="plage">
                 <p class="p2">Quartier mythique de la ville, c’est ici que se trouvent les seules plages des quartiers Nord, précédées de jardins paysagers avec une base nautique municipale. Trois plages se suivent, elles sont surveillées et faciles d’accès. Peu profondes, en partie ombragées, elles sont de sable fin et de galets, équipées de sanitaires, douches et d’une consigne de vêtements gratuite. Ce sont les plages parfaites pour les familles ! A proximité l’on trouve une buvette, un terrain de jeux (volley…). Des espaces sont également aménagés pour pique-niquer et des animations sportives et créatives sont également proposées.
 
@@ -63,9 +112,7 @@
                             </div>
                     </div> 
             </div>
-            <br><br>
             <h1>Plage du Prophète</h1>
-            <br><br>
             <div class="plage">
                 <div class="image">
                     <img class="image1" src="images/prophète.jpg">
@@ -81,9 +128,7 @@
                 <p class="p2"><b>Plage idéale pour les familles</b><br><br>
                     En contrebas de la Corniche Kennedy, la Plage du Prophète est une plage, en libre accès, iconique de Marseille. Elle est très célèbre auprès des marseillais mais également des touristes car elle convient aux petits et aux grands ! L’eau y est peu profonde, les enfants ont donc pied assez loin, et pour les plus sportifs, un terrain de beach-volley est en libre accès ! <br>La Plage du Prophète possède également un poste de secours, une buvette et des douches. Et pour un repas avec vue mer, c’est Chez Marco, célèbre institution située juste au-dessus de la plage qu’il faut se rendre. Le soir, c’est le rendez-vous incontournable pour les apéros sur la plage ou pour un pique-nique. Familles ou groupes d’amis s’y retrouvent pour profiter du coucher de soleil.</p>
             </div>
-            <br><br>
             <h1>Plage du Prado</h1>
-            <br><br>
             <div class="plage">
                 <p class="p2"><b>L’incontournable pour la baignade</b><br><br>
                     C’est la plus grande plage de Marseille, avec une succession de plusieurs plages en libre accès (Roucas Blanc, Prado Nord, Prado Sud, Plage de Borély, Vieille Chapelle, Huveaune…) durant 3,5km. Elle est l’une des plus fréquentées de Marseille, et s’étire du David, célèbre statue du Prado, jusqu’à la plage de la Vieille Chapelle proche de la Pointe Rouge. Elle est entourée de grandes étendues d’herbe qui deviennent le paradis des amateurs de football ! Très accessible via le bus n°19 et 83 ou le métro, elle propose des activités nautiques, des aires de jeux pour enfants, des plages privées, des terrains de beach-volley, de nombreux sanitaires, des consignes et plusieurs postes de secours. Elle dispose également d’un complexe avec restaurants, bars et boutiques : l’Escale Borély. Tous les étés, elle accueille également plusieurs festivals, le Delta Festival ou encore la Freestyle Cup, grâce à son skate-park.</p>
@@ -100,9 +145,7 @@
                     </div>  
             </div>
          </div> 
-         <br><br>
-         <h1>Anse du Bain des Dames</h1>    
-         <br><br>      
+         <h1>Anse du Bain des Dames</h1>         
         <div class="plage">
             <div class="image">
                 <img class="image1" src="images/dames.webp">
@@ -115,15 +158,12 @@
                     </div>
             </div>
             <p class="p2"><b>Cabanons et authenticité</b><br><br>
-                Constituée de trois plages allant de galets à sable et gravillons, l’anse du Bain des Dames est très prisée des marseillais. <br>Plus loin du centre que ses consœurs, elle est plutôt tranquille et possède des douches contrairement à certaines plages plus secrètes de Marseille. <br>D’authentiques cabanons de pêcheurs marseillais appartenant aujourd’hui à des particuliers sont encore présents.         
+                Constituée de trois plages allant de galets à sable et gravillons, l’anse du Bain des Dames est très prisée des marseillais. <br> <br>Plus loin du centre que ses consœurs, elle est plutôt tranquille et possède des douches contrairement à certaines plages plus secrètes de Marseille. <br><br>D’authentiques cabanons de pêcheurs marseillais appartenant aujourd’hui à des particuliers sont encore présents. </p>
         </div>
-        <br><br>
-        <div class="titre">
+        <div id="calanques" class="titre">
             <h2>Les Calanques</h2>
             <img class= "img1"src="images/nd.png">
        </div>
-       <br><br>
-
         <h1>Les Goudes</h1>
         <br><br>
         <div class="plage">
@@ -140,9 +180,7 @@
             <p class="p2"><b>Un village dans les calanques</b><br><br>Petit port traditionnel abritant encore quelques pêcheurs, le lieu est pris d’assaut durant l’été au point que la circulation y est difficile et le stationnement un casse tête. Néanmoins pour ceux qui auront su s’y prendre assez tôt le jeu en vaut la chandelle.
                 Outre le cadre pittoresque et la vue saisissante, de nombreux bars et restaurants accueillent le visiteur dans ce cadre unique de cabanons.<br> La colline compte des vestiges de fortifications de la seconde guerre mondiale, ainsi qu’une vue imprenable sur la rade de Marseille, l’Île Maire et l’archipel de Riou.<br> Les Goudes sont à la fois la porte des calanques avec le point de départ des randonneurs vers le Massif. Mais aussi le paradis des baigneurs, des pêcheurs, des plongeurs, des amateurs de paysages grandioses…
         </div>
-        <br><br>
         <h1>Calanque de Morgiou</h1>
-            <br><br>
             <div class="plage">
                 <p class="p2"><b>Un coin de paradis au cœur des calanques </b><br><br>
                     Morgiou est une calanque qui se distingue un peu des autres calanques puisqu’elle a la particularité d’être habitée à l’année ! Il y a plusieurs siècles, quelques pêcheurs et des bergers sont les premiers à élire domicile au sein de la calanque de Morgiou. Ils y construisent une poignée de cabanons en guise d’habitat primaire. Ces mêmes cabanons où tout le monde voudraient séjourner aujourd’hui car ils sont devenus un lieu de repos et de détente incomparable !<br> Etroite, profonde et secrète elle reste accessible à pied en 1 heure de marche environ depuis le massif de Luminy. On y accède en voiture par un col vertigineux, digne d‘un col de montagne. Il convient de s’assurer des conditions d’accès dans les calanques avant de vous lancer, car la règlementation est très stricte surtout en été. </p>
@@ -157,14 +195,11 @@
                             </div>
                     </div> 
             </div>
-            <br><br>
-            <div class="titre">
+            <div id="iles" class="titre">
                 <h2>Les Iles</h2>
                 <img class= "img1"src="images/nd.png">
            </div>
-           <br><br>
            <h1>Les îles du Frioul</h1>   
-           <br><br> 
             <div class="plage">
                 <div class="image">
                     <img class="image1" src="images/frioul2.jpg">
@@ -182,6 +217,52 @@
                     
                 </div> 
     </main>
+
+    <footer>
+        <!-- START CONTAINER FOOTER -->
+        <div class="container_footer">
+            <!-- START DIV LOGO FOOT1 -->
+            <div class="container_foot1">
+                <h2>Marseille Travel</h2>
+                <div class="background"><img src="/images/marseille-svg-4.png" alt=""></div>
+            </div>
+            <!-- START DIV LOGO FOOT1 -->
+
+            <!-- START DIV FOOT2 -->
+            <div class="container_foot2">
+                <div>
+                    <h2>Culture et loisirs</h2>
+                </div>
+               <div class="list_foot">
+                <ul>
+                    <li><a href="/histoire.html">Histoire</a></li>
+                    <li><a href="/rando.html">Randonnées</a></li>
+                    <li><a href="/plages.html">Plages</a></li>
+                    <li><a href="/parcs.html">Parcs</a></li>
+                    <li><a href="/musee.html">Musées</a></li>
+                   </ul>
+                </div>
+            </div>
+            <!-- END DIV FOOT2 -->
+
+            <!-- START DIV FOOT3 -->
+            <div class="container_foot3">
+                <h2>Contact</h2>
+                <a class="button_contact" href="/contact.html">Nous contacter</a>
+                <h2>Nos réseaux sociaux</h2>
+                <div class="container_media">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+            <!-- START DIV FOOT3 -->
+        </div>
+        <!-- START CONTAINER FOOTER -->
+    </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>
     

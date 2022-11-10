@@ -4,24 +4,95 @@
 }
 
 
-
 header{
-    height: 200px;
+
     width: 100%;
     background-color: rgb(253, 251, 251);
 }
 
+.main-header{
+    height:700px;
+}
 
+.main-header img{
+    width:100%;
+    height:100%;
+}
+
+main{
+    background-color: white;
+}
 .haut{
     display: flex;
-    height: 700px;
-    width: 100%;
-    background-color: rgb(68, 42, 218);
-    background-image: url(../images/plage2.png);
-    background-repeat: no-repeat;
-    background-size: 100% 700px;
+    margin-top: -40%;
+    margin-bottom: 17%;
     justify-content: center;
+    text-shadow: 0px 0px 15px black;
 }
+
+.menu{
+    display:flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-evenly;
+    font-size: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.button-51 {
+  background-color: transparent;
+  border: 1px solid #266DB6;
+  box-sizing: border-box;
+  color: #00132C;
+  font-family: "Avenir Next LT W01 Bold",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  z-index: 0;
+}
+
+.button-51:hover,
+.button-51:active {
+  outline: 0;
+}
+
+.button-51:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-51:before {
+  background-color: #D5EDF6;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.button-51:hover::before {
+  background-color: #6DCFF6;
+}
+
+@media (min-width: 768px) {
+  .button-51 {
+    padding: 16px 32px;
+  }
+}
+
 
 
 .fond{
@@ -43,7 +114,8 @@ header{
     justify-content: center;
     justify-content: space-between;
     padding-left: 3%;
-    
+    margin:1%;
+    margin-bottom: 2%;
 
 }
 
@@ -60,7 +132,8 @@ h2{
 h1{
     display: flex;
    font-size: 50px; 
-   margin:3%;
+   margin:4%;
+  
    justify-content: center;
    background:linear-gradient(90deg, rgba(0,0,0,0.19371498599439774) 0%, rgba(103,208,230,1) 100%);
 }
@@ -139,4 +212,3 @@ h1{
     width: 55%;
     text-align: justify;
 }
-
