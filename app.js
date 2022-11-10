@@ -22,3 +22,18 @@ document.addEventListener('scroll', () =>
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 })
+
+
+function changeBg() {
+    var navbar = document.getElementById('navbar')
+    var scrollValue = window.scrollY;
+    if(scrollValue < 380){
+        navbar.classList.remove('bgColor');
+    } else {
+        navbar.classList.add('bgColor')
+
+    }
+
+}
+
+window.addEventListener('scroll', changeBg);
