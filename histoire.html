@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/histoire.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="css/marseille.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/histoire.css"/>
     <title>Histoire de Marseille</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
@@ -14,52 +14,53 @@
      </style>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            
+    <header1>
+        <!-- START NAVBAR -->
+        <nav id="navbar" class="navbar">
             <ul class="nav-menu">
+            
                 <li class="nav-link">
-                    <a href="index.html" class="nav-item">Accueil</a>
+                    <a href="histoire.html" class="nav-item"></i>Histoire</a>
                 </li>
 
                 <li class="nav-link">
-                    <a href="" class="nav-item">Marseille 1</a>
+                    <a href="rando.html" class="nav-item">Randonnées</a>
                 </li>
 
                 <li class="nav-link">
-                    <a href="" class="nav-item">Marseille 2</a>
+                    <a href="plages.html" class="nav-item">Plages</a>
                 </li>
 
                 <li class="nav-link">
-                    <a href="" class="nav-item">Marseille 3</a>
+                    <a href="parcs.html" class="nav-item">Parcs</a>
                 </li>
 
                 <li class="nav-link">
-                    <a href="" class="nav-item">Marseille 4</a>
-                </li>
-
-                <li class="nav-link">
-                    <a href="" class="nav-item">Marseille 5</a>
+                    <a href="musee.html" class="nav-item">Musées</a>
                 </li>
 
                 <li class="nav-link">
                     <a href="contact.html" class="nav-item">Contact</a>
                 </li>    
             </ul>
-
+            <!-- START HAMBURGER -->
             <div class="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
+            <!-- END HAMBURGER -->
             <span>MENU</span>
+            
         </nav>
-    </header>
-    <script src="app.js"></script>
+        <!-- END NAVBAR -->
 
-    <main>
+    </header1>
+
+
+    <mainH>
     
-        <div class="parallax parallax1">  
+        <div class="parallaxH parallaxH1">  
             <div class="histoire">
 
                 <section>
@@ -201,12 +202,53 @@
                 
             </div>
 
-    </main>
+    </mainH>
 
     <footer>
-        <div id="poupou"></div>
+        <!-- START CONTAINER FOOTER -->
+        <div class="container_footer">
+            <!-- START DIV LOGO FOOT1 -->
+            <div class="container_foot1">
+                <h2>Marseille Travel</h2>
+                <div class="background"><img src="images/marseille-svg-4.png" alt=""></div>
+            </div>
+            <!-- START DIV LOGO FOOT1 -->
+
+            <!-- START DIV FOOT2 -->
+            <div class="container_foot2">
+                <div>
+                    <h2>Culture et loisirs</h2>
+                </div>
+               <div class="list_foot">
+                <ul>
+                    <li><a href="histoire.html">Histoire</a></li>
+                    <li><a href="rando.html">Randonnées</a></li>
+                    <li><a href="plages.html">Plages</a></li>
+                    <li><a href="parcs.html">Parcs</a></li>
+                    <li><a href="musee.html">Musées</a></li>
+                   </ul>
+                </div>
+            </div>
+            <!-- END DIV FOOT2 -->
+
+            <!-- START DIV FOOT3 -->
+            <div class="container_foot3">
+                <h2>Contact</h2>
+                <a class="button_contact" href="contact.html">Nous contacter</a>
+                <h2>Nos réseaux sociaux</h2>
+                <div class="container_media">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+            <!-- START DIV FOOT3 -->
         </div>
+        <!-- START CONTAINER FOOTER -->
     </footer>
+
+    <script src="app.js"></script>
 
 </body>
 </html>

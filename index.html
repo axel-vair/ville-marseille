@@ -5,50 +5,236 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/marseille.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Dosis:wght@300;400&family=Source+Serif+Pro&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+    
+    </style>
+    <script src="https://kit.fontawesome.com/75738720bb.js" crossorigin="anonymous"></script>
     <title>Marseille Travel</title>
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            
+        <!-- START NAVBAR -->
+        <nav id="navbar" class="navbar">
             <ul class="nav-menu">
+            
                 <li class="nav-link">
-                    <a href="index.html" class="nav-item">Accueil</a>
+                    <a href="histoire.html" class="nav-item"></i>Histoire</a>
                 </li>
 
                 <li class="nav-link">
-                    <a href="" class="nav-item">Marseille 1</a>
+                    <a href="rando.html" class="nav-item">Randonnées</a>
                 </li>
 
                 <li class="nav-link">
-                    <a href="" class="nav-item">Marseille 2</a>
+                    <a href="plages.html" class="nav-item">Plages</a>
                 </li>
 
                 <li class="nav-link">
-                    <a href="" class="nav-item">Marseille 3</a>
+                    <a href="parcs.html" class="nav-item">Parcs</a>
                 </li>
 
                 <li class="nav-link">
-                    <a href="" class="nav-item">Marseille 4</a>
-                </li>
-
-                <li class="nav-link">
-                    <a href="" class="nav-item">Marseille 5</a>
+                    <a href="musee.html" class="nav-item">Musées</a>
                 </li>
 
                 <li class="nav-link">
                     <a href="contact.html" class="nav-item">Contact</a>
                 </li>    
             </ul>
-
+            <!-- START HAMBURGER -->
             <div class="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
+            <!-- END HAMBURGER -->
             <span>MENU</span>
+            
         </nav>
+        <!-- END NAVBAR -->
+
+        <!-- START IMAGE HEADER -->
+        <div class="main_header">
+            <img src="images/marseille_banner.jpeg" alt="Image de Marseille">
+        </div>
+        <!-- END IMAGE HEADER -->
     </header>
+   
+    <main>
+        <!-- START HERO DIV/LOGO -->
+        <section class="hero">
+            <div class="shortcut_pages">
+                <div class="logo_pages">
+                
+                    <div class="logo_pages_solodiv">
+                        <a href="musee.html"><img src="images/musee.png" alt="Musées"></a>
+                        <p>Nos musées</p>
+                    </div>
+
+                    <div class="logo_pages_solodiv">
+                        <a href="histoire.html"><img src="images/livre-dhistoire.png" alt="Histoire"></a>
+                        <p>Notre histoire</p>
+                    </div>
+
+                    <div class="logo_pages_solodiv">
+                        <a href="rando.html"><img src="images/bottes-de-randonnee.png" alt="Randonées"></a>
+                        <p>Nos randonnées</p>
+                    </div>
+
+                    <div class="logo_pages_solodiv">
+                        <a href="parcs.html"><img src="images/arbre.png" alt="Parcs"></a>
+                        <p>Nos parcs</p>
+                    </div>
+
+                    <div class="logo_pages_solodiv">
+                        <a href="plages.html"><img src="images/plage.png" alt="Plages"></a>
+                        <p>Nos plages</p>
+                    </div>
+
+                    <div class="logo_pages_solodiv">
+                        <a href="contact.html"><img src="images/contact.png" alt="Contact"></a>
+                        <p>Contact</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END HERO DIV/LOGO -->
+
+        <!-- START HEADER TITLE SECTION -->
+        <div class="header_section">
+            <div class="container_header_section">
+                <div class="div_title">
+                    <h2 class="h2_header_section">L'actualité</h2>
+                </div>
+            </div>
+        </div>
+        <!-- END HERO DIV/LOGO -->
+        
+        <!-- START SECTION 2 / ARTICLES -->
+        <section class="section2">
+            <div class="container_section2">
+                <article class="article_main">
+                    <div class="img_main">
+                        <img src="images/travaux_ecole22-vignette.jpg" alt="école">
+
+                    </div>
+                    <div class="text_main">
+                        <h3>Des écoles plus vertes et plus durables</h3>
+                        <p class="description">La Ville de Marseille a mis l’écologie et le soutien à l’économie locale au coeur des projets de rénovation et de la conduite des chantiers.</p>
+                        <a class="link_text"href="#">En savoir plus</a>
+                    </div>
+                </article>  
+            </div>
+        </section>
+        <!-- START SECTION 2 / ARTICLES -->
+
+        <!-- START SUB SECTION 2 / ARTICLES -->
+        <section class="section2">
+            <div class="article_multiple">
+                <article class="article_mini">
+                    <img src="images/sobriete_energetique-vignette.png" alt="Palais éteint">
+                    <div class="article_mini_text"><h3>La Ville de Marseille présente son plan de sobriété et d'efficacité énergétiques</h3></div>
+                </article>
+
+                <article class="article_mini"><img src="images/noaille-vignette.png" alt="Noaille">
+                    <div class="article_mini_text"><h3>Projet "Rue du Musée / Musée de la Rue" : "Place à prendre, acte II" au Musée d'Histoire de Marseille</h3></div>
+                </article>
+                <article class="article_mini"><img src="images/plan_local-habitat_vignette.png" alt="Plan local">
+                    <div class="article_mini_text"><h3>La Ville de Marseille présente ses propositions pour agir face aux urgences du logement dans le cadre de l'élaboration du Programme local de l'habitat métropolitain</h3></div>
+                </article>
+
+                <article class="article_mini"><img src="images/assemblee_citoyenne_futur_vignette.jpg" alt="Assemblée">
+                    <div class="article_mini_text"><h3>La Ville de Marseille lance en novembre son Assemblée Citoyenne du Futur</h3></div>
+                </article>
+            </div>
+        </section>
+        <!-- END SUB SECTION 2 / ARTICLES -->
+
+         <!-- START PARALLAX  -->
+        <div class="parallax">
+            <div class="text_overlay">
+                <h3>Plan de rénovation des écoles</h3>
+                <p class="description">La Ville de Marseille dévoile son plan de rénovation des écoles afin d’offrir à tous les enfants des conditions d’apprentissage dignes.
+                    Découvrez les grands axes pour des écoles plus sûres, plus ouvertes, plus durables et plus vertes.</p>
+                <a id="link_text" href="#">En savoir plus</a>
+            </div>
+        </div> 
+         <!-- END PARALLAX -->
+       
+         <!-- START SECTION NEWSLETTER -->
+        <section>  
+            <div class="container_news">
+
+                 <!-- START DIV NEWSLETTER -->
+                <div class="news"><h2 class="title_news">Newsletter</h2>
+                    <p class="description_news"> Inscrivez-vous à la newsletter pour recevoir l’actualité de la Ville de Marseille directement dans votre boîte mail !</p>
+                    <form class="form">
+                        <input type="text" class="text-field" maxlength="256" placeholder="Votre e-mail">
+                        <input type="submit" value="Inscription"> 
+                    </form>
+                </div>
+                <!-- END DIV NEWSLETTER -->
+
+                <!-- START DIV APP -->
+                <div class="app"><h2 class="title_news">Tout Marseille dans une application !</h2>
+                    <div class="container_apps">
+                        <p class="description_news"><a href="https://apps.apple.com/fr/app/ville-de-marseille/id1267540404">apple store</a></p>
+                        <p class="description_news"><a href="https://play.google.com/store/apps/details?id=fr.marseille.villedemarseille&hl=fr">google play</a></p>
+                    </div>  
+                </div>
+                <!-- START DIV NEWSLETTER -->
+            </div>
+        </section>
+        <!-- END SECTION NEWSLETTER -->
+    </main>
+
+    <footer>
+        <!-- START CONTAINER FOOTER -->
+        <div class="container_footer">
+            <!-- START DIV LOGO FOOT1 -->
+            <div class="container_foot1">
+                <h2>Marseille Travel</h2>
+                <div class="background"><img src="images/marseille-svg-4.png" alt=""></div>
+            </div>
+            <!-- START DIV LOGO FOOT1 -->
+
+            <!-- START DIV FOOT2 -->
+            <div class="container_foot2">
+                <div>
+                    <h2>Culture et loisirs</h2>
+                </div>
+               <div class="list_foot">
+                <ul>
+                    <li><a href="histoire.html">Histoire</a></li>
+                    <li><a href="rando.html">Randonnées</a></li>
+                    <li><a href="plages.html">Plages</a></li>
+                    <li><a href="parcs.html">Parcs</a></li>
+                    <li><a href="musee.html">Musées</a></li>
+                   </ul>
+                </div>
+            </div>
+            <!-- END DIV FOOT2 -->
+
+            <!-- START DIV FOOT3 -->
+            <div class="container_foot3">
+                <h2>Contact</h2>
+                <a class="button_contact" href="contact.html">Nous contacter</a>
+                <h2>Nos réseaux sociaux</h2>
+                <div class="container_media">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+            <!-- START DIV FOOT3 -->
+        </div>
+        <!-- START CONTAINER FOOTER -->
+    </footer>
+
     <script src="app.js"></script>
 </body>
 </html>

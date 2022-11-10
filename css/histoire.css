@@ -6,15 +6,18 @@
 body {
     font-family: 'Albert Sans', sans-serif;
 }
-.parallax{
-    height: 365vh;
+.bgColor{ 
+    background: rgba(0, 0, 0, 0.27) !important;
+}
+.parallaxH{
+    height: 415vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
   
-.parallax1{
+.parallaxH1{
 background-image: url("https://i.pinimg.com/originals/da/ca/95/daca9501d4b7139e2ecc980dd9f79a4c.jpg");
 }
 #pack1{
@@ -44,7 +47,6 @@ background-image: url("https://i.pinimg.com/originals/da/ca/95/daca9501d4b7139e2
     padding-bottom: 20px;
     font-family: 'Source Serif Pro', serif;
 }
-
 
 .pack2{
     display: flex;

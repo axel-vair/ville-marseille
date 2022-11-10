@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Dosis:wght@300;400&family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+
+.intro{
+    display:flex;
+    flex-direction:column;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.intro p{
+    margin-top: 1%;
+    margin-bottom:1%;
+}
+
+section{
+    display:flex;
+    border-bottom: rgb(32, 0, 255) 5px solid;
+    flex-direction:column;
+    width:95%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:2%;
+}
+
+.cat-titlebox{
+    display:flex;
+    background: linear-gradient(141deg, rgba(32,0,255,1) 0%, rgba(0,201,255,1) 100%);
+    justify-content: center;
+    color:white;
+}
+
+.cat-titlebox-img-container{
+    display:flex;
+    width: 5%;
+    height: max-content;
+}
+
+.cat-titlebox-img{
+    width:100%;
+}
+
+.cat-title{
+    display:flex;
+    font-size: 40px;
+    align-items: center;
+    margin-left: 0.5em;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.cat-museumbox{
+    display:flex;
+    background-color: rgba(32,0,255,0.1);
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    row-gap: 2em;
+    padding: 3% 1%;
+}
+
+.museum{
+    display:flex;
+    background-color:white;
+    width:30%;
+    border: 1px solid black;
+    flex-direction: column;
+    box-shadow: 0 0 5px black;
+    border-radius: 15px;
+}
+
+.museum-img-container{
+    display:flex;
+    height:15em;
+}
+.museum-img{
+    width:100%;
+    object-fit:cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.museum-text{
+    display:flex;
+    flex-direction:column;
+    padding: 5%;
+    height: 100%;
+}
+.museum-name{
+    display:flex;
+    margin-bottom: 5%;
+    justify-content: center;
+    font-weight: 900;
+    text-transform:uppercase;
+    text-align:center;
+    font-family: 'Lora', serif;
+}
+.museum-address{
+    margin-bottom: 2%;
+}
+.strong{
+    font-weight: 700;
+}
+.museum-description{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:2%;
+    height: 100%;
+}
+.museum-description p{
+    margin-bottom:2%;
+}
+.museum-link{
+    display:flex;
+}
