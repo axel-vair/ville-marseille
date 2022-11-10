@@ -294,7 +294,7 @@ main {
     color: rgba(3, 55, 255, 1);
 }
 
-/* ~ HAMBURGER AND CROSS ~ */ 
+/* ~ HAMBURGER AND CROSS ~ */ 
 
 .bar { 
     display:block;
@@ -323,7 +323,7 @@ main {
     transform: translateY(-8px) rotate(-45deg);
 }
 
-    /* ~ NAV MENU OUT OF THE BOX ~ */
+    /* ~ NAV MENU OUT OF THE BOX ~ */
 .nav-menu{
     position: fixed;
     left: -100%; 
@@ -762,4 +762,3 @@ input[type=submit]:hover {
 input[type=text] {
     padding: 10px 10px;
 }
-
