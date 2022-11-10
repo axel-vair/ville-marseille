@@ -205,7 +205,7 @@ main {
     }
     .container_footer {
         display: flex;
-        width: 100%
+        width: 100%;
         padding-top: 30px;
         color: #fff;
         flex-direction: row !important;  
@@ -252,6 +252,11 @@ main {
     left: 0;
     z-index: 9;
     background: linear-gradient(141deg, rgba(32,0,255,1) 0%, rgba(0,201,255,1) 100%);
+}
+
+.bgColor { 
+    background-color: rgba(32,0,255,1) !important;
+    color: #fff;
 }
 
 .nav-menu { 
