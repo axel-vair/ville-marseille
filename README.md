@@ -12,6 +12,8 @@ En charge de la page d'accueil (index.html), j'ai également codé le **header**
 J'ai utilisé un peu de javascript pour le menu afin de pouvoir l'afficher uniquement on click et le cacher au scroll ou au click. 
 Le menu étant transparant sur le header, lorsqu'il le dépasse, il change de couleur afin d'être encore visible.
 
+La page d'accueil est totalement responsive. J'ai fait le choix de supprimer le header pour ne laisser que la bar de navigation qui prend 100% du width, à contrario de la version desktop.
+
 
 ***
 
