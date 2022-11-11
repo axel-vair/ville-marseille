@@ -3,7 +3,7 @@
 Le but du projet a été de travailler en groupe avec un projet de site internet sur la ville de Marseille. 
 ***
 
-### La page d'accueil 
+### Page d'accueil, par Axel Vair.
 Pour se faire je me suis inspiré du site internet de Marseille ainsi que certains sites de tourisme.
 Le bleu est représentatif du beau temps, de la mer mais renvoie également aux couleurs officielles de Marseille.
 
